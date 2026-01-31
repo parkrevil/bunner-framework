@@ -1,4 +1,4 @@
-# bunner-workspace
+# bunner-framework
 
 VS Code workspace meta-repository for Bunner multi-repo development.
 
