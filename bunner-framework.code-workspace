@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"name": "workspace",
+			"path": "."
+		}
+  ],
+	"settings": {
+		"git.autoRepositoryDetection": "subFolders",
+		"explorer.excludeGitIgnore": false
+	}
+}

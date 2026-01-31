@@ -1,0 +1,16 @@
+# Workspace meta repo: do not vendor product repositories
+/bunner/
+/bunner-agentops/
+/bunner-shared/
+/bunner-example/
+/bunner-common/
+/bunner-core/
+/bunner-http-adapter/
+/bunner-cli/
+/bunner-logger/
+/bunner-scalar/
+/bunner-firebat/
+/bunner-oxlint-plugin/
+
+# local/ide
+.DS_Store
