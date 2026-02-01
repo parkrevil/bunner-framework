@@ -2,14 +2,28 @@
   "servers": {
     "angular-cli": {
       "command": "npx",
-      "args": ["-y", "@angular/cli", "mcp"]
+      "args": [
+        "-y",
+        "@angular/cli",
+        "mcp"
+      ]
+    },
+    "primeng": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@primeng/mcp"
+      ]
     },
     "bunner-agentops": {
       "command": "bun",
-      "args": ["run", "src/main.ts"],
+      "args": [
+        "run",
+        "src/main.ts"
+      ],
       "cwd": "bunner-agentops/apps/mcp-server",
       "env": {
-        "AGENTOPS_DATA_DIR": "../../../.vscode/.agentops"
+        "AGENTOPS_DATA_DIR": "../../../.vscode/run-store"
       }
     }
   }

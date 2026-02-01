@@ -1,0 +1,41 @@
+{"runId":"81aeab43-78c1-4bee-a6eb-8806eb1a6695","seq":1,"time":"2026-01-31T18:39:02.477Z","type":"run.created","message":"demo run"}
+{"runId":"81aeab43-78c1-4bee-a6eb-8806eb1a6695","seq":2,"time":"2026-01-31T18:39:02.478Z","type":"job.queued","jobId":"job-1","message":"demo"}
+{"runId":"81aeab43-78c1-4bee-a6eb-8806eb1a6695","seq":3,"time":"2026-01-31T18:39:02.478Z","type":"job.queued","jobId":"job-2","message":"demo 2"}
+{"runId":"81aeab43-78c1-4bee-a6eb-8806eb1a6695","seq":4,"time":"2026-01-31T18:39:02.692Z","type":"run.started","message":"demo run"}
+{"runId":"81aeab43-78c1-4bee-a6eb-8806eb1a6695","seq":5,"time":"2026-01-31T18:39:02.692Z","type":"job.started","jobId":"job-1","message":"demo"}
+{"runId":"81aeab43-78c1-4bee-a6eb-8806eb1a6695","seq":6,"time":"2026-01-31T18:39:02.693Z","type":"job.progress","jobId":"job-1","message":"starting","data":{"progress":0}}
+{"runId":"81aeab43-78c1-4bee-a6eb-8806eb1a6695","seq":7,"time":"2026-01-31T18:39:03.027Z","type":"job.progress","jobId":"job-1","message":"progress 13%","data":{"progress":13}}
+{"runId":"81aeab43-78c1-4bee-a6eb-8806eb1a6695","seq":8,"time":"2026-01-31T18:39:03.365Z","type":"job.progress","jobId":"job-1","message":"progress 25%","data":{"progress":25}}
+{"runId":"81aeab43-78c1-4bee-a6eb-8806eb1a6695","seq":9,"time":"2026-01-31T18:39:03.366Z","type":"job.stdout","jobId":"job-1","message":"working on job-1"}
+{"runId":"81aeab43-78c1-4bee-a6eb-8806eb1a6695","seq":10,"time":"2026-01-31T18:39:03.701Z","type":"job.progress","jobId":"job-1","message":"progress 38%","data":{"progress":38}}
+{"runId":"81aeab43-78c1-4bee-a6eb-8806eb1a6695","seq":11,"time":"2026-01-31T18:39:04.037Z","type":"job.progress","jobId":"job-1","message":"progress 50%","data":{"progress":50}}
+{"runId":"81aeab43-78c1-4bee-a6eb-8806eb1a6695","seq":12,"time":"2026-01-31T18:39:04.371Z","type":"job.progress","jobId":"job-1","message":"progress 63%","data":{"progress":63}}
+{"runId":"81aeab43-78c1-4bee-a6eb-8806eb1a6695","seq":13,"time":"2026-01-31T18:39:04.707Z","type":"job.progress","jobId":"job-1","message":"progress 75%","data":{"progress":75}}
+{"runId":"81aeab43-78c1-4bee-a6eb-8806eb1a6695","seq":14,"time":"2026-01-31T18:39:05.040Z","type":"job.progress","jobId":"job-1","message":"progress 88%","data":{"progress":88}}
+{"runId":"81aeab43-78c1-4bee-a6eb-8806eb1a6695","seq":15,"time":"2026-01-31T18:39:05.373Z","type":"job.progress","jobId":"job-1","message":"progress 100%","data":{"progress":100}}
+{"runId":"81aeab43-78c1-4bee-a6eb-8806eb1a6695","seq":16,"time":"2026-01-31T18:39:05.373Z","type":"job.completed","jobId":"job-1","message":"succeeded"}
+{"runId":"81aeab43-78c1-4bee-a6eb-8806eb1a6695","seq":17,"time":"2026-01-31T18:39:05.610Z","type":"job.started","jobId":"job-2","message":"demo 2"}
+{"runId":"81aeab43-78c1-4bee-a6eb-8806eb1a6695","seq":18,"time":"2026-01-31T18:39:05.610Z","type":"job.progress","jobId":"job-2","message":"starting","data":{"progress":0}}
+{"runId":"81aeab43-78c1-4bee-a6eb-8806eb1a6695","seq":19,"time":"2026-01-31T18:39:05.947Z","type":"job.progress","jobId":"job-2","message":"progress 13%","data":{"progress":13}}
+{"runId":"81aeab43-78c1-4bee-a6eb-8806eb1a6695","seq":20,"time":"2026-01-31T18:39:06.287Z","type":"job.progress","jobId":"job-2","message":"progress 25%","data":{"progress":25}}
+{"runId":"81aeab43-78c1-4bee-a6eb-8806eb1a6695","seq":21,"time":"2026-01-31T18:39:06.287Z","type":"job.stdout","jobId":"job-2","message":"working on job-2"}
+{"runId":"81aeab43-78c1-4bee-a6eb-8806eb1a6695","seq":22,"time":"2026-01-31T18:39:06.621Z","type":"job.progress","jobId":"job-2","message":"progress 38%","data":{"progress":38}}
+{"runId":"81aeab43-78c1-4bee-a6eb-8806eb1a6695","seq":23,"time":"2026-01-31T18:39:06.960Z","type":"job.progress","jobId":"job-2","message":"progress 50%","data":{"progress":50}}
+{"runId":"81aeab43-78c1-4bee-a6eb-8806eb1a6695","seq":24,"time":"2026-01-31T18:39:07.302Z","type":"job.progress","jobId":"job-2","message":"progress 63%","data":{"progress":63}}
+{"runId":"81aeab43-78c1-4bee-a6eb-8806eb1a6695","seq":25,"time":"2026-01-31T18:39:07.638Z","type":"job.progress","jobId":"job-2","message":"progress 75%","data":{"progress":75}}
+{"runId":"81aeab43-78c1-4bee-a6eb-8806eb1a6695","seq":26,"time":"2026-01-31T18:47:28.160Z","type":"job.queued","jobId":"job-2","message":"re-queued after restart"}
+{"runId":"81aeab43-78c1-4bee-a6eb-8806eb1a6695","seq":27,"time":"2026-01-31T18:47:28.160Z","type":"job.started","jobId":"job-2","message":"demo 2"}
+{"runId":"81aeab43-78c1-4bee-a6eb-8806eb1a6695","seq":28,"time":"2026-01-31T18:47:28.161Z","type":"job.progress","jobId":"job-2","message":"starting","data":{"progress":0}}
+{"runId":"81aeab43-78c1-4bee-a6eb-8806eb1a6695","seq":29,"time":"2026-01-31T18:47:28.495Z","type":"job.progress","jobId":"job-2","message":"progress 13%","data":{"progress":13}}
+{"runId":"81aeab43-78c1-4bee-a6eb-8806eb1a6695","seq":30,"time":"2026-01-31T18:47:28.838Z","type":"job.progress","jobId":"job-2","message":"progress 25%","data":{"progress":25}}
+{"runId":"81aeab43-78c1-4bee-a6eb-8806eb1a6695","seq":31,"time":"2026-01-31T18:47:28.838Z","type":"job.stdout","jobId":"job-2","message":"working on job-2"}
+{"runId":"81aeab43-78c1-4bee-a6eb-8806eb1a6695","seq":32,"time":"2026-01-31T18:47:29.172Z","type":"job.progress","jobId":"job-2","message":"progress 38%","data":{"progress":38}}
+{"runId":"81aeab43-78c1-4bee-a6eb-8806eb1a6695","seq":33,"time":"2026-01-31T18:47:29.511Z","type":"job.progress","jobId":"job-2","message":"progress 50%","data":{"progress":50}}
+{"runId":"81aeab43-78c1-4bee-a6eb-8806eb1a6695","seq":34,"time":"2026-01-31T18:47:29.846Z","type":"job.progress","jobId":"job-2","message":"progress 63%","data":{"progress":63}}
+{"runId":"81aeab43-78c1-4bee-a6eb-8806eb1a6695","seq":35,"time":"2026-01-31T18:50:16.462Z","type":"job.queued","jobId":"job-2","message":"re-queued after restart"}
+{"runId":"81aeab43-78c1-4bee-a6eb-8806eb1a6695","seq":36,"time":"2026-01-31T18:50:16.462Z","type":"job.started","jobId":"job-2","message":"demo 2"}
+{"runId":"81aeab43-78c1-4bee-a6eb-8806eb1a6695","seq":37,"time":"2026-01-31T18:50:16.463Z","type":"job.progress","jobId":"job-2","message":"exec in agent-bunner-agentops"}
+{"runId":"81aeab43-78c1-4bee-a6eb-8806eb1a6695","seq":38,"time":"2026-01-31T18:50:16.727Z","type":"job.stderr","jobId":"job-2","message":"service \"agent-bunner-agentops\" is not running"}
+{"runId":"81aeab43-78c1-4bee-a6eb-8806eb1a6695","seq":39,"time":"2026-01-31T18:50:16.730Z","type":"job.failed","jobId":"job-2","message":"exit 1"}
+{"runId":"81aeab43-78c1-4bee-a6eb-8806eb1a6695","seq":40,"time":"2026-01-31T18:50:16.730Z","type":"job.completed","jobId":"job-2","message":"failed"}
+{"runId":"81aeab43-78c1-4bee-a6eb-8806eb1a6695","seq":41,"time":"2026-01-31T18:50:16.730Z","type":"run.completed","message":"failed"}

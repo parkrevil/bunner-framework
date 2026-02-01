@@ -1,0 +1,61 @@
+{
+  "runId": "81aeab43-78c1-4bee-a6eb-8806eb1a6695",
+  "pipeline": {
+    "pipelineId": "demo",
+    "taskId": "demo-task",
+    "title": "demo run",
+    "jobs": [
+      {
+        "jobId": "job-1",
+        "goal": "demo"
+      },
+      {
+        "jobId": "job-2",
+        "goal": "demo 2",
+        "dependsOn": [
+          "job-1"
+        ]
+      }
+    ],
+    "createdAt": "2026-01-31T18:39:02.475Z"
+  },
+  "status": "failed",
+  "createdAt": "2026-01-31T18:39:02.475Z",
+  "updatedAt": "2026-01-31T18:50:16.730Z",
+  "jobs": {
+    "job-1": {
+      "jobId": "job-1",
+      "status": "succeeded",
+      "attempt": 0,
+      "createdAt": "2026-01-31T18:39:02.475Z",
+      "updatedAt": "2026-01-31T18:39:05.373Z",
+      "startedAt": "2026-01-31T18:39:02.692Z",
+      "worker": {
+        "kind": "local",
+        "target": "runner"
+      },
+      "finishedAt": "2026-01-31T18:39:05.373Z",
+      "result": {
+        "exitCode": 0
+      }
+    },
+    "job-2": {
+      "jobId": "job-2",
+      "status": "failed",
+      "attempt": 0,
+      "createdAt": "2026-01-31T18:39:02.475Z",
+      "updatedAt": "2026-01-31T18:50:16.730Z",
+      "startedAt": "2026-01-31T18:39:05.610Z",
+      "worker": {
+        "kind": "local",
+        "target": "agent-bunner-agentops"
+      },
+      "finishedAt": "2026-01-31T18:50:16.730Z",
+      "result": {
+        "exitCode": 1
+      }
+    }
+  },
+  "startedAt": "2026-01-31T18:39:02.692Z",
+  "finishedAt": "2026-01-31T18:50:16.730Z"
+}
