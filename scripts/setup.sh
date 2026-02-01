@@ -5,17 +5,18 @@ OWNER="${BUNNER_OWNER:-parkrevil}"
 BRANCH="${BUNNER_BRANCH:-main}"
 
 repos=(
+  bunner
   bunner-agentops
-  bunner-shared
-  bunner-example
+  bunner-cli
   bunner-common
   bunner-core
-  bunner-http-adapter
-  bunner-cli
-  bunner-logger
-  bunner-scalar
+  bunner-example
   bunner-firebat
+  bunner-http-adapter
+  bunner-logger
   bunner-oxlint-plugin
+  bunner-scalar
+  bunner-shared
 )
 
 clone_one() {
